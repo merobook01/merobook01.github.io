@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:sans-serif;
+    font-family: sans-serif;
 }
 
 .navigation {
@@ -21,36 +21,38 @@ header {
     background-color: black;
     padding: 10px 0;
 }
-.middle form{
+
+.middle form {
     display: flex;
     justify-content: space-between;
 }
+
 .search-bar {
     display: flex;
     align-items: center;
-    width:90%;
-  }
-  
-  input[type="search"] {
+    width: 90%;
+}
+
+input[type="search"] {
     width: 100%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 40px;
     font-size: 16px;
-  }
-  
-  
-  .search-bar button {
-    background-color: transparent; 
+}
+
+
+.search-bar button {
+    background-color: transparent;
     border: none;
     cursor: pointer;
     padding-left: 10px;
-  }
-  
-  .search-bar button i {
-    color: white; 
+}
+
+.search-bar button i {
+    color: white;
     font-size: 25px;
-  }
+}
 
 .head-nav .left,
 .head-nav .middle,
@@ -72,7 +74,6 @@ header {
 .navigation .text-nav {
     border: 1px solid red;
 }
-
 
 .banner-img {
     background-image: url(./img/banner.png);
@@ -105,6 +106,53 @@ header {
     text-decoration: none;
 }
 
+
+
+/*main-component css*/
+.main-container {
+    display: grid;
+    justify-content: center;
+
+}
+
+.main-container .row {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.main-container .row .col {
+    padding-bottom: 5px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.main-container .row .col img {
+    width: 150px;
+}
+
+.main-container .row .col .add-to-cart {
+    background-color: red;
+    width: 90%;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.add-to-cart i {
+    padding-left: 5px;
+    ;
+    color: #fff;
+}
+
+
+
+
+
+
+
 .co-founders {
     display: flex;
 }
@@ -125,9 +173,10 @@ header {
     width: 50%;
 }
 
-footer{
-border: solid #000000 1px;
+footer {
+    border: solid #000000 1px;
 }
+
 .footer1 {
     display: flex;
     padding: 30px 0;
@@ -161,36 +210,41 @@ border: solid #000000 1px;
 }
 
 /* About Us css / styling html->80*/
-.AboutUs{
-   display:flex; 
-   padding: 20px;
-   justify-content: space-between;
+.AboutUs {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
 }
-.AboutUsText{
+
+.AboutUsText {
     font-size: 24px;
-    font-weight:bold;
+    font-weight: bold;
 
 }
-.AboutUsLeft,.AboutUsRight{
-    width:48%;
+
+.AboutUsLeft,
+.AboutUsRight {
+    width: 50%;
 }
 
-.AboutUsRight > .RightText{
-    display:flex;
+.AboutUsRight>.RightText {
+    display: flex;
     justify-content: center;
     font-size: xxx-large;
-    font-weight:bold;
+    font-weight: bold;
 
 }
+
 @media only screen and (max-width: 475px) {
     .AboutUs {
         flex-direction: column;
-        align-items: center; 
+        align-items: center;
     }
 
-    .AboutUsLeft, .AboutUsRight {
+    .AboutUsLeft,
+    .AboutUsRight {
         width: 100%;
         text-align: center;
-        margin-bottom: 20px; 
+        margin-bottom: 20px;
     }
 }

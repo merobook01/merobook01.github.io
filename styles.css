@@ -109,8 +109,10 @@ input[type="search"] {
 
 
 /*main-component css*/
+
 .main-container {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 
 }
@@ -118,7 +120,8 @@ input[type="search"] {
 .main-container .row {
     display: flex;
     padding: 10px;
-    justify-content: space-evenly;
+    justify-content:space-around;
+    gap: 20px;
 }
 
 .main-container .row .col {
@@ -126,11 +129,10 @@ input[type="search"] {
     border: 2px solid #000000;
     border-radius: 10px;
     text-align: center;
+   
 }
 
-.main-container .row .col img {
-    width: 150px;
-}
+
 
 .main-container .row .col .add-to-cart {
     background-color: red;

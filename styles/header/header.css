@@ -1,0 +1,251 @@
+
+
+.navigation {
+    width: 100%;
+
+
+
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+.navigation .head-nav {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 10px 0;
+}
+.head-nav .left{
+    display: flex;
+    align-items: center;
+}
+.head-nav .left img{
+    width: 50px;
+    height: 50px;
+}
+
+.middle form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+input[type="search"] {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+}
+
+
+.search-bar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.search-bar button i {
+    color: white;
+    font-size: 25px;
+}
+
+.head-nav .left,
+.head-nav .middle,
+.head-nav .right {
+    color: white;
+    width: 33.33%;
+}
+
+.head-nav .right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.head-nav .right a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation .text-nav {
+    border: 1px solid red;
+}
+
+.banner-img {
+    background-image: url(./img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - 100px);
+    width: 100%
+}
+
+.banner-img .text {
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: 45%;
+
+}
+
+.category-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.category-nav ul li a {
+    font-size: 20px;
+    padding: 0 20px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+/*main-component css*/
+.main-container {
+    display: grid;
+    justify-content: center;
+
+}
+
+.main-container .row {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.main-container .row .col {
+    padding-bottom: 5px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.main-container .row .col img {
+    width: 150px;
+}
+
+.main-container .row .col .add-to-cart {
+    background-color: red;
+    width: 90%;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.add-to-cart i {
+    padding-left: 5px;
+    color: #fff;
+}
+
+
+
+
+.co-founders {
+    display: flex;
+}
+
+.co-founders .aakash,
+.co-founders .dilli,
+.co-founders .aabhushan,
+.co-founders .saurab {
+    width: 25%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.co-founders .aakash img,
+.co-founders .dilli img,
+.co-founders .aabhushan img,
+.co-founders .saurab img {
+    width: 50%;
+}
+
+footer {
+    border: solid #000000 1px;
+}
+
+.info {
+    display: flex;
+    padding: 25px 0;
+
+}
+
+.info .left,
+.info .social-media,
+.info .right {
+    font-size: 16px;
+    width: 33.33%;
+}
+
+.info .social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info .social-media a i {
+    font-size: 25px;
+    color: black;
+}
+
+.info .right {
+    text-align: right;
+}
+
+footer .copyright {
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* About Us css / styling html->80*/
+.AboutUs {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.AboutUsText {
+    font-size: 24px;
+    font-weight: bold;
+
+}
+
+.AboutUsLeft,
+.AboutUsRight {
+    width: 50%;
+}
+
+.AboutUsRight>.RightText {
+    display: flex;
+    justify-content: center;
+    font-size: xxx-large;
+    font-weight: bold;
+
+}
+
+@media only screen and (max-width: 475px) {
+    .AboutUs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AboutUsLeft,
+    .AboutUsRight {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

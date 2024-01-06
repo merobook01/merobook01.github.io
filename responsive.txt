@@ -1,0 +1,3 @@
+767px mobile 
+990px - samma tab 
+1080px - desktop starts

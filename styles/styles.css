@@ -1,154 +1,196 @@
-/* signUp */
-.container{
-    height: 85vh;
-}
-.container, .row{
-    display: flex;
-    width: fit-content;
-    padding: 10px;
-   
-}
-
-.welcome{
-    position: absolute;
-    top: 30%;
-    left: 10%;
-}
-.welcome a{
-    color: #000000;   
-}
-
-.welcome h2{
-    font-family: 'Nunito', sans-serif;
-    font-size: 60px;
-    text-transform: uppercase;   
-}
-
-.welcome h1{
-    font-family: 'Nunito', sans-serif;
-    font-size: 102px;
-    text-transform: uppercase;
-    font-weight: bold;
-    
-}
-
-.welcome h3{
-    font-family: 'Nunito', sans-serif;
-    font-size: 24px;
-    
-}
-
-.welcome a:hover{
-    font-family: 'Nunito', sans-serif;
-    color: rgb(48, 48, 226);
-    font-size: 26px;
-    
-}
-.register{
-    position: absolute;
-    top: 20%;
-    right: 10%;
-}
-
-.googleReg a{
-    display: flex;  
-    padding: 5px;
-    border: #000000 1px solid;
-    border-radius: 5px;
-    text-decoration: none;
-    color: #000000;
-    font-size: 27px;
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    box-shadow: 2px 2px 2px #000000 ;
-   
+    font-family:sans-serif;
 }
 
-.googleReg span{
-    position: absolute;
-    padding: 5px;
-    left: 30%;
+.navigation {
+    width: 100%;
+
 }
 
-hr{
-    border: #333131 1px solid;
-    margin-top: 3em;
-      width: 610px;
-}
-
-.or{
+header {
     display: flex;
-    width: min-content;
-    background-color: #FFFFFF;
+    align-items: center;
+}
+
+.navigation .head-nav {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 10px 0;
+}
+.middle form{
+    display: flex;
+    justify-content: space-between;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    width:90%;
+  }
+  
+  input[type="search"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    font-size: 16px;
+  }
+  
+  
+  .search-bar button {
+    background-color: transparent; 
+    border: none;
+    cursor: pointer;
+    padding-left: 10px;
+  }
+  
+  .search-bar button i {
+    color: white; 
+    font-size: 25px;
+  }
+
+.head-nav .left,
+.head-nav .middle,
+.head-nav .right {
+    color: white;
+    width: 33.33%;
+}
+
+.head-nav .right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.head-nav .right a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation .text-nav {
+    border: 1px solid red;
+}
+
+
+.banner-img {
+    background-image: url(./img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: calc(100vh - 100px);
+    width: 100%
+}
+
+.banner-img .text {
+    width: 30%;
     position: absolute;
-    left: 48%;
-    bottom: 81.5%;
+    right: 0;
+    top: 45%;
+
 }
 
-.flName .nameLabel{
-    margin-left: -8px;
-    width: 305px;
-    height: 61px;
-    font-family: 'Nunito', sans-serif;
-    
+.category-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
 }
 
-
-.fname .lname .nameLabel{
-    font-family: 'Nunito', sans-serif;
-    width: 305px;
-    height: 61px;
-    margin-right: 22px;
-}
-
-.pLabel .passwordLabel{
-    font-family: 'Nunito', sans-serif;
-    margin-bottom: 10px;
-    width: 38.5em;
-    height: 3em;
-    width: 618.05px;
-    height: 61px;
-}
-
-.emailLabel .emailLabel{
-    margin-bottom: 20px;
-    font-family: 'Nunito', sans-serif;
-    width: 38.5em;
-    height: 3em;
-    width: 618.05px;
-    height: 61px;
-}
-
-.terms{
-    font-family: 'Nunito', sans-serif;
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-
-.terms a:hover{
-    color: blue;
-}
-
-.signupP{
-    width:  618.05px;
-}
-
-.signupP a{
-    display: flex;  
-    padding: 5px;
-    background-color: #7f265b;
-    border-radius: 5px;
+.category-nav ul li a {
+    font-size: 20px;
+    padding: 0 20px;
+    color: black;
     text-decoration: none;
 }
 
-.signupP span{
-    padding: 5px;
-    margin: auto;
-    font-weight: bold;
-    font-size: 24px;
-    color: #FFFFFF;
+.co-founders {
+    display: flex;
 }
 
-button{
-    border: none;
-  align-items: center;
+.co-founders .aakash,
+.co-founders .dilli,
+.co-founders .aabhushan,
+.co-founders .saurab {
+    width: 25%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.co-founders .aakash img,
+.co-founders .dilli img,
+.co-founders .aabhushan img,
+.co-founders .saurab img {
+    width: 50%;
+}
+
+footer{
+border: solid #000000 1px;
+}
+.footer1 {
+    display: flex;
+    padding: 30px 0;
+
+}
+
+.footer1 .left,
+.footer1 .social-media,
+.footer1 .right {
+    font-size: 16px;
+    width: 33.33%;
+}
+
+.footer1 .social-media {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer1 .social-media a i {
+    font-size: 25px;
+    color: black;
+}
+
+.footer1 .right {
+    text-align: right;
+}
+
+.footer2 {
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* About Us css / styling html->80*/
+.AboutUs{
+   display:flex; 
+   padding: 20px;
+   justify-content: space-between;
+}
+.AboutUsText{
+    font-size: 24px;
+    font-weight:bold;
+
+}
+.AboutUsLeft,.AboutUsRight{
+    width:48%;
+}
+
+.AboutUsRight > .RightText{
+    display:flex;
+    justify-content: center;
+    font-size: xxx-large;
+    font-weight:bold;
+
+}
+@media only screen and (max-width: 475px) {
+    .AboutUs {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .AboutUsLeft, .AboutUsRight {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px; 
+    }
 }

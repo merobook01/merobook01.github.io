@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mero Book</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/signup.css">
+</head>
+
+<body>
+    <header>
+        <div class="navigation">
+            <!--head-nav is the top most nav-->
+            <div class="head-nav">
+                <div class="left">
+                    Mero Book
+                </div>
+                <div class="middle">
+                    <form action="/search" method="GET">
+                        <div class="search-bar">
+                            <input type="search" id="searchQuery" name="q" placeholder="Search...">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="right">
+                    <a class="login" href="#login">Login</a>
+                    -
+                    <a class="signup" href="#signup">Sign Up</a>
+                </div>
+            </div>
+            <!--text-nav to display text-->
+            <div class="text-nav">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis distinctio vel atque cupiditate quos
+                quas? Tempora ea, illum adipisci quas dolorem quia.
+            </div>
+        </div>
+    </header>
+
+    <main>
+   <div class="container">
+    <div class="row">
+        <div class="welcome col-md-6">
+            <h2>welcome to <h1>mero book.</h1></h2>
+            <h3>Already have an account? <a href="">Log in</a></h3>
+        </div>
+
+        <div class="register col-md-6" style="margin-left: 15em;">
+            <div class="googleReg" style="margin-bottom: 20px;">
+                <a href="" style="width: 618px;">
+                    <img src="img/Google Logos By hrhasnai (1).png" style="margin-left: 40px;" width="45px" height="45px" alt="">
+                    <span>Sign up with Google</span>
+                </a>
+                <hr >
+                <p class="or">OR</p>
+            </div>
+
+            <form style="margin: auto;">
+              <div class="flName row" style="font-size: 27px;" >
+                <div class="fname">
+                    <label for="First Name" style="margin-left: -7px;">First Name</label>
+                    <div>
+                        <input class="nameLabel" type="text">
+                    </div>
+                </div>
+                
+                <div class="lname" style="margin-left: 15px;">
+                    <label for="Last Name" style="margin-left: -7px;">Last Name</label>
+                    <div>
+                        <input class="nameLabel" type="text">
+                    </div>
+                </div>
+            </div>
+            <div class="pLabel">
+                <label style="font-size: 27px;" for="password">Password</label>
+                <div>
+                    <input class="passwordLabel" type="password">
+                </div>
+            </div>
+            <div class="emailLabel">
+                <label style="font-size: 27px;" for="password">Email</label>
+                <div>
+                    <input class="emailLabel" type="password">
+                </div>
+            </div>
+
+            <div class="terms">
+                <input style="width: 20px; height: 20px;" type="checkbox" name="" id="">
+                <span>I agree to the <a href="">Terms of Service</a> and <a href="">Privacy Notice</a>.</span>
+            </div>
+
+            
+                <button class="signupP"><a href="">
+                    <span>Sign up</span>
+                </a></button>
+           
+        </form>
+        </div>
+    </div>
+   </div>
+    </main>
+
+    <footer>
+        <!--our footer starts from here-->
+        <div class="footer1">
+            <!--footer1 content the 3 div in horizontal-->
+            <div class="left">
+                Mero Book | Digital Online Store<br>
+                Itahari -9, Sunsari Nepal
+            </div>
+            <div class="social-media">
+                <a href=""><i class="fa-brands fa-facebook"></i> </a>
+                <a href=""><i class="fa-brands fa-whatsapp"></i> </a>
+                <a href=""><i class="fa-brands fa-x-twitter"></i> </a>
+                <a href=""><i class="fa-brands fa-youtube"></i> </a>
+                <a href=""><i class="fa-brands fa-instagram"></i> </a>
+            </div>
+            <div class="right">
+                Privacy Policy | Terms & Conditions | Online Shopping
+            </div>
+        </div>
+        <div class="footer2">
+            <!--footer2 contain the text-->
+            <p>© <span id="yearFooter">xxxx</span> - Mero Book </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

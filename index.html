@@ -1,148 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mero Book</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css" />
+ </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mero Book</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="styles.css">
-</head>
+ <body>
+  <header>
+   <!--helo-->
+   <div class="navigation">
+    <!--head-nav is the top most nav-->
+    <div class="head-nav">
+     <div class="left">Mero Book</div>
+     <div class="middle">
+      <form action="/search" method="GET">
+       <div class="search-bar">
+        <input type="search" id="searchQuery" name="q" placeholder="Search..." />
+        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+       </div>
+      </form>
+     </div>
+     <div class="right">
+      <a class="login" href="#login">Login</a>
+      -
+      <a class="signup" href="signup.html">Sign Up</a>
+     </div>
+    </div>
+    <!--text-nav to display text-->
+    <div class="text-nav">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis distinctio vel atque cupiditate quos quas? Tempora ea, illum adipisci quas dolorem quia.</div>
+   </div>
+  </header>
+  <main>
+   <!--banner-img display the banner image-->
+   <div class="banner-img">
+    <div class="text">
+     <h2>Welcome to Mero Book, where every page holds a new adventure and every story unlocks imagination. Unleash the Magic of Reading with Mero Book</h2>
+     <p></p>
+    </div>
+   </div>
+   <br />
+   <br />
+   <hr />
+   <br />
+   <br />
+   <!--this is for category nav-->
+   <div class="category-nav">
+    <ul>
+     <li>
+      <a class="top-selling" href="#top-selling">Top Selling</a>
+     </li>
+     <li>
+      <a class="most-popular" href="#most-popular">Most Popular</a>
+     </li>
+     <li>
+      <a class="on-sale" href="#on-sale">On Sale</a>
+     </li>
+     <li>
+      <a class="my-favourite" href="#my-favourite">My Favourite</a>
+     </li>
+    </ul>
+   </div>
 
-<body>
-    <header>
-        <!--helo-->
-        <div class="navigation">
-            <!--head-nav is the top most nav-->
-            <div class="head-nav">
-                <div class="left">
-                    Mero Book
-                </div>
-                <div class="middle">
-                    <form action="/search" method="GET">
-                        <div class="search-bar">
-                            <input type="search" id="searchQuery" name="q" placeholder="Search...">
-                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                        </div>
-                    </form>
-                </div>
-                <div class="right">
-                    <a class="login" href="#login">Login</a>
-                    -
-                    <a class="signup" href="signup.html">Sign Up</a>
-                </div>
-            </div>
-            <!--text-nav to display text-->
-            <div class="text-nav">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis distinctio vel atque cupiditate quos
-                quas? Tempora ea, illum adipisci quas dolorem quia.
-            </div>
-        </div>
-    </header>
-    <main>
-        <!--banner-img display the banner image-->
-        <div class="banner-img">
-            <div class="text">
-
-
-                <h2>Welcome to Mero Book, where every page holds a new adventure and every story unlocks imagination.
-                    Unleash the Magic of Reading with Mero Book</h2>
-                <p>
-                </p>
-            </div>
-        </div>
-        <br> <br>
-        <hr>
-        <br> <br>
-        <!--this is for category nav-->
-        <div class="category-nav">
-            <ul>
-                <li>
-                    <a class="top-selling" href="#top-selling">Top Selling</a>
-                </li>
-                <li>
-                    <a class="most-popular" href="#most-popular">Most Popular</a>
-                </li>
-                <li>
-                    <a class="on-sale" href="#on-sale">On Sale</a>
-                </li>
-                <li>
-                    <a class="my-favourite" href="#my-favourite">My Favourite</a>
-                </li>
-            </ul>
-        </div>
-
-        <br> <br>
-        <hr>
-        <br> <br>
-<!-- About Us Section CSS line->163-->
-<div class="AboutUs">
-    <div class="AboutUsLeft"> 
-        <span style="font-size: xxx-large; font-weight:bold;">AboutUs</span>
-            <p style ="width: 40%;">MeroBook is an online 
-             Ecommerce site to purchase books <br>
-            <a href="#" style="text-decoration: none; font-size: 18px;">ViewMore</a> 
-            </p>
+   <br />
+   <br />
+   <hr />
+   <br />
+   <br />
+   <!-- About Us Section CSS line->163-->
+   <div class="AboutUs">
+    <div class="AboutUsLeft">
+     <span style="font-size: xxx-large; font-weight: bold">AboutUs</span>
+     <p style="width: 40%">
+      MeroBook is an online Ecommerce site to purchase books <br />
+      <a href="#" style="text-decoration: none; font-size: 18px">ViewMore</a>
+     </p>
     </div>
     <div class="AboutUsRight">
-        <div class="RightText">
-            <span>Client:</span>
-            <span class="NoOfUsers">12k+</span>
-        </div>    
+     <div class="RightText">
+      <span>Client:</span>
+      <span class="NoOfUsers">12k+</span>
+     </div>
     </div>
+   </div>
 
-</div>
-    
-        <!--this is for co-founders image-->
-        <h1 style="text-align: center; padding-bottom: 20px;">Co-Founders</h1>
-        <div class="co-founders">
-            <div class="aakash">
-                <img src="./img/aakash.png" alt="photo1.png">
-                <p>Aakash Shrestha</p>
-            </div>
-            <div class="dilli">
-                <img src="./img/dilli.png" alt="photo2.png">
-                <p>Dilli Hang Rai</p>
-            </div>
-            <div class="aabhushan">
-                <img src="./img/aabhushan.png" alt="photo3.png">
-                <p>Aabhushan Dhakal</p>
-            </div>
-            <div class="saurab">
-                <img src="./img/saurab.png" alt="photo4.png">
-                <p>Saurab Shrestha</p>
-            </div>
-        </div>
+   <!--this is for co-founders image-->
+   <h1 style="text-align: center; padding-bottom: 20px">Co-Founders</h1>
+   <div class="co-founders">
+    <div class="aakash">
+     <img src="./img/aakash.png" alt="photo1.png" />
+     <p>Aakash Shrestha</p>
+    </div>
+    <div class="dilli">
+     <img src="./img/dilli.png" alt="photo2.png" />
+     <p>Dilli Hang Rai</p>
+    </div>
+    <div class="aabhushan">
+     <img src="./img/aabhushan.png" alt="photo3.png" />
+     <p>Aabhushan Dhakal</p>
+    </div>
+    <div class="saurab">
+     <img src="./img/saurab.png" alt="photo4.png" />
+     <p>Saurab Shrestha</p>
+    </div>
+   </div>
+  </main>
 
-    </main>
-
-    <footer>
-        <!--our footer starts from here-->
-        <div class="footer1">
-            <!--footer1 content the 3 div in horizontal-->
-            <div class="left">
-                Mero Book | Digital Online Store<br>
-                Itahari -9, Sunsari Nepal
-            </div>
-            <div class="social-media">
-                <a href=""><i class="fa-brands fa-facebook"></i> </a>
-                <a href=""><i class="fa-brands fa-whatsapp"></i> </a>
-                <a href=""><i class="fa-brands fa-x-twitter"></i> </a>
-                <a href=""><i class="fa-brands fa-youtube"></i> </a>
-                <a href=""><i class="fa-brands fa-instagram"></i> </a>
-            </div>
-            <div class="right">
-                Privacy Policy | Terms & Conditions | Online Shopping
-            </div>
-        </div>
-        <div class="footer2">
-            <!--footer2 contain the text-->
-            <p> &copy <span id="yearFooter">xxxx</span> - Mero Book </p>
-        </div>
-    </footer>
-    <script src="script.js"></script>
-</body>
-
+  <footer>
+   <!--our footer starts from here-->
+   <div class="footer1">
+    <!--footer1 content the 3 div in horizontal-->
+    <div class="left">
+     Mero Book | Digital Online Store<br />
+     Itahari -9, Sunsari Nepal
+    </div>
+    <div class="social-media">
+     <a href=""><i class="fa-brands fa-facebook"></i> </a>
+     <a href=""><i class="fa-brands fa-whatsapp"></i> </a>
+     <a href=""><i class="fa-brands fa-x-twitter"></i> </a>
+     <a href=""><i class="fa-brands fa-youtube"></i> </a>
+     <a href=""><i class="fa-brands fa-instagram"></i> </a>
+    </div>
+    <div class="right">Privacy Policy | Terms & Conditions | Online Shopping</div>
+   </div>
+   <div class="footer2">
+    <!--footer2 contain the text-->
+    <p>&copy <span id="yearFooter">xxxx</span> - Mero Book</p>
+   </div>
+  </footer>
+  <script src="script.js"></script>
+ </body>
 </html>

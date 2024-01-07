@@ -1,154 +1,165 @@
-/* signUp */
-.container{
-    height: 85vh;
-}
-.container, .row{
-    display: flex;
-    width: fit-content;
-    padding: 10px;
-   
+/* signup */
+
+* a:hover {
+  color: blue;
 }
 
-.welcome{
-    position: absolute;
-    top: 30%;
-    left: 10%;
-}
-.welcome a{
-    color: #000000;   
+* label {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
 }
 
-.welcome h2{
-    font-family: 'Nunito', sans-serif;
-    font-size: 60px;
-    text-transform: uppercase;   
+* .inputbox,
+.inputs {
+  border-radius: 6px;
+  box-shadow: 1px 1px 4px rgb(54, 47, 47);
+  height: 40px;
+  padding-inline-start: 6px;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
 }
 
-.welcome h1{
-    font-family: 'Nunito', sans-serif;
-    font-size: 102px;
-    text-transform: uppercase;
-    font-weight: bold;
-    
+* .otherDetails {
+  margin-bottom: 20px;
 }
 
-.welcome h3{
-    font-family: 'Nunito', sans-serif;
-    font-size: 24px;
-    
+.main-container {
+  display: flex;
+  justify-content: center;
 }
 
-.welcome a:hover{
-    font-family: 'Nunito', sans-serif;
-    color: rgb(48, 48, 226);
-    font-size: 26px;
-    
-}
-.register{
-    position: absolute;
-    top: 20%;
-    right: 10%;
+.container {
+  width: 1331px;
+  height: 700px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.googleReg a{
-    display: flex;  
-    padding: 5px;
-    border: #000000 1px solid;
-    border-radius: 5px;
-    text-decoration: none;
-    color: #000000;
-    font-size: 27px;
-    box-sizing: border-box;
-    box-shadow: 2px 2px 2px #000000 ;
-   
+.welcome {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  height: 700px;
+  width: 665px;
 }
 
-.googleReg span{
-    position: absolute;
-    padding: 5px;
-    left: 30%;
+.welcome .welcomeTo {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
 }
 
-hr{
-    border: #333131 1px solid;
-    margin-top: 3em;
-      width: 610px;
+.welcome .meroBook {
+  font-family: "Nunito", sans-serif;
+  font-weight: bolder;
+  font-size: 102px;
+  text-transform: uppercase;
 }
 
-.or{
-    display: flex;
-    width: min-content;
-    background-color: #FFFFFF;
-    position: absolute;
-    left: 48%;
-    bottom: 81.5%;
+.welcome .alreadyHave {
+  font-family: "Nunito", sans-serif;
+  font-size: 24px;
 }
 
-.flName .nameLabel{
-    margin-left: -8px;
-    width: 305px;
-    height: 61px;
-    font-family: 'Nunito', sans-serif;
-    
+.register {
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto 0px auto;
 }
 
-
-.fname .lname .nameLabel{
-    font-family: 'Nunito', sans-serif;
-    width: 305px;
-    height: 61px;
-    margin-right: 22px;
-}
-
-.pLabel .passwordLabel{
-    font-family: 'Nunito', sans-serif;
-    margin-bottom: 10px;
-    width: 38.5em;
-    height: 3em;
-    width: 618.05px;
-    height: 61px;
-}
-
-.emailLabel .emailLabel{
-    margin-bottom: 20px;
-    font-family: 'Nunito', sans-serif;
-    width: 38.5em;
-    height: 3em;
-    width: 618.05px;
-    height: 61px;
-}
-
-.terms{
-    font-family: 'Nunito', sans-serif;
-    font-size: 22px;
-    margin-bottom: 20px;
-}
-
-.terms a:hover{
-    color: blue;
-}
-
-.signupP{
-    width:  618.05px;
-}
-
-.signupP a{
-    display: flex;  
-    padding: 5px;
-    background-color: #7f265b;
-    border-radius: 5px;
-    text-decoration: none;
-}
-
-.signupP span{
-    padding: 5px;
-    margin: auto;
-    font-weight: bold;
-    font-size: 24px;
-    color: #FFFFFF;
-}
-
-button{
-    border: none;
+.buttonContainer .googleButton {
+  background-color: white;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 6px;
+  box-shadow: 1px 1px 4px rgb(54, 47, 47);
+  width: 610px;
+  height: 65px;
+  font-size: 27px;
+  position: relative;
+  display: flex;
   align-items: center;
+  cursor: pointer;
+}
+
+.buttonContainer img {
+  position: absolute;
+  left: 4em;
+}
+
+.buttonContainer p {
+  position: absolute;
+  left: 7.5em;
+}
+
+.line {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.line hr {
+  margin-top: 30px;
+  border: 1px solid;
+  width: 580px;
+}
+
+.line .or {
+  font-family: "Nunito", sans-serif;
+  font-size: 25px;
+  position: absolute;
+  margin-top: 11px;
+  background-color: white;
+}
+
+.flname {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.flname input {
+  width: 301.58px;
+}
+
+.inputs {
+  width: 610px;
+}
+
+.termsandconditions {
+  display: flex;
+  text-align: center;
+  gap: 10px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.termsandconditions .checkbox {
+  width: 20px;
+}
+
+.termsandconditions p {
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.signinContainer .signinButton {
+  width: 610px;
+  height: 65px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #7f265b;
+}
+
+.signinContainer .signinButton a {
+  text-decoration: none;
+  color: white;
+  font-size: 27px;
 }

@@ -47,6 +47,10 @@
   margin-bottom: 30px;
 }
 
+.googleContinue .continueGoogle:hover {
+  outline: 2px solid #f0f0f0;
+}
+
 .googleContinue img {
   position: absolute;
   left: 8em;

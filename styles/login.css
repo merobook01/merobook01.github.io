@@ -1,0 +1,152 @@
+.main-cointainer {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 527px;
+  height: 547px;
+  border-right: 0.5px solid #c5c5c5;
+  border-bottom: 0.5px solid #c5c5c5;
+  border-right: 0.5px solid #c5c5c5;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px #c5c5c5;
+}
+
+.top {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 367px;
+}
+
+.top .top1 {
+  font-family: "Nunito", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.top .top2 {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+}
+
+.googleContinue .continueGoogle {
+  background-color: white;
+  width: 420px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  border: 1px solid #f0f0f0;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.googleContinue img {
+  position: absolute;
+  left: 8em;
+}
+
+.googleContinue p {
+  position: absolute;
+  left: 10em;
+  font-size: 14px;
+}
+
+.lline {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.lline .smallLine {
+  width: 254px;
+  border: 1px solid;
+}
+
+.lline .orEmail {
+  position: absolute;
+  margin-top: -6px;
+  background-color: white;
+  padding: 0 2px;
+}
+
+.detail {
+  margin-bottom: 20px;
+}
+
+label {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+}
+
+.detailInput {
+  border-radius: 6px;
+  padding-inline-start: 6px;
+  width: 420px;
+  height: 40px;
+  font-size: px;
+}
+
+.check-forgot {
+  width: 420px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.check-forgot div {
+  display: flex;
+}
+
+.remember {
+  margin-left: 6px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.check-forgot .forgot {
+  font-weight: 600;
+  font-size: 12px;
+  color: rgb(8, 8, 198);
+}
+
+.check-forgot .forgot:hover {
+  font-weight: 600;
+  font-size: 12px;
+  color: blue;
+}
+
+.loginContainer .loginButton {
+  width: 420px;
+  height: 40px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  background-color: #7f265b;
+  margin-bottom: 20px;
+}
+
+.loginContainer .loginButton a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.dontHave .signUpText {
+  font-size: 20px;
+}
+.dontHave .signUpText a {
+  font-family: "Nunito", sans-serif;
+  color: rgb(8, 8, 198);
+}
+.dontHave .signUpText a:hover {
+  color: blue;
+}

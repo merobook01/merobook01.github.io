@@ -22,10 +22,6 @@ header {
     padding: 10px 0;
 }
 
-.middle form {
-    display: flex;
-    justify-content: space-between;
-}
 
 .search-bar {
     display: flex;

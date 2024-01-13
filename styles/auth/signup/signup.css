@@ -24,19 +24,31 @@
   margin-bottom: 20px;
 }
 
-.main-container {
+
+.main-container{
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.container {
+.main-container .container{
+  width: 50%;
+
+}
+
+/* .main-container {
+  display: flex;
+  justify-content: center;
+} */
+
+/* .container {
   width: 1331px;
   height: 700px;
   display: flex;
   flex-wrap: wrap;
-}
+} */
 
-.welcome {
+/* .welcome {
   display: flex;
   flex-direction: column;
   text-align: start;
@@ -51,12 +63,12 @@
   font-size: 60px;
 }
 
-.welcome .meroBook {
-  font-family: "Nunito", sans-serif;
+.welcome .meroBook { */
+  /* font-family: "Nunito", sans-serif;
   font-weight: bolder;
   font-size: 102px;
   text-transform: uppercase;
-}
+} */
 
 .welcome .alreadyHave {
   font-family: "Nunito", sans-serif;
@@ -66,7 +78,7 @@
 .register {
   display: flex;
   flex-direction: column;
-  margin: 40px auto 0px auto;
+  /* margin: 40px auto 0px auto; */
 }
 
 .buttonContainer .googleButton {
@@ -75,8 +87,8 @@
   border: 2px solid black;
   border-radius: 6px;
   box-shadow: 1px 1px 4px rgb(54, 47, 47);
-  width: 610px;
-  height: 65px;
+  /* width: 610px;
+  height: 65px; */
   font-size: 27px;
   position: relative;
   display: flex;
@@ -104,7 +116,7 @@
 .line hr {
   margin-top: 30px;
   border: 1px solid;
-  width: 580px;
+  /* width: 580px; */
 }
 
 .line .or {
@@ -122,13 +134,7 @@
   margin-bottom: 20px;
 }
 
-.flname input {
-  width: 301.58px;
-}
 
-.inputs {
-  width: 610px;
-}
 
 .termsandconditions {
   display: flex;
@@ -162,4 +168,22 @@
   text-decoration: none;
   color: white;
   font-size: 27px;
+}
+
+
+.flname{
+  width: 100%;
+}
+.flname > div{
+  width: 50%;
+}
+
+.register input,
+.flname > div input{
+  width: 100%;
+
+}
+
+input{
+  border: none;
 }

@@ -1,6 +1,5 @@
-.main-cointainer {
-  display: flex;
-  justify-content: center;
+.main-container {
+  width: 100%;
 }
 
 .container {
@@ -8,13 +7,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 527px;
-  height: 547px;
-  border-right: 0.5px solid #c5c5c5;
-  border-bottom: 0.5px solid #c5c5c5;
-  border-right: 0.5px solid #c5c5c5;
+  border: 0.5px solid #c5c5c5;
   border-radius: 8px;
   box-shadow: 2px 2px 4px #c5c5c5;
+  padding: 15px;
 }
 
 .top {
@@ -23,18 +19,18 @@
   width: 367px;
 }
 
-.top .top1 {
+.top1 {
   font-family: "Nunito", sans-serif;
   font-size: 36px;
   font-weight: bold;
 }
 
-.top .top2 {
+.top2 {
   font-family: "Nunito", sans-serif;
   font-size: 16px;
 }
 
-.googleContinue .continueGoogle {
+.continueGoogle {
   background-color: white;
   width: 420px;
   height: 35px;
@@ -45,6 +41,10 @@
   border-radius: 6px;
   cursor: pointer;
   margin-bottom: 30px;
+}
+
+.continueGoogle:hover {
+  outline: 2px solid #f0f0f0;
 }
 
 .googleContinue img {
@@ -64,12 +64,13 @@
   justify-content: center;
   margin-bottom: 20px;
 }
-.lline .smallLine {
+
+.smallLine {
   width: 254px;
   border: 1px solid;
 }
 
-.lline .orEmail {
+.orEmail {
   position: absolute;
   margin-top: -6px;
   background-color: white;
@@ -99,10 +100,6 @@ label {
   margin-bottom: 50px;
 }
 
-.check-forgot div {
-  display: flex;
-}
-
 .remember {
   margin-left: 6px;
   font-family: "Nunito", sans-serif;
@@ -110,19 +107,19 @@ label {
   font-size: 12px;
 }
 
-.check-forgot .forgot {
+.forgot {
   font-weight: 600;
   font-size: 12px;
   color: rgb(8, 8, 198);
 }
 
-.check-forgot .forgot:hover {
+.forgot:hover {
   font-weight: 600;
   font-size: 12px;
   color: blue;
 }
 
-.loginContainer .loginButton {
+.loginButton {
   width: 420px;
   height: 40px;
   text-align: center;
@@ -133,19 +130,22 @@ label {
   margin-bottom: 20px;
 }
 
-.loginContainer .loginButton a {
+.loginButton a {
   text-decoration: none;
   color: white;
   font-size: 24px;
 }
 
+
 .dontHave .signUpText {
   font-size: 16px;
-}
-.dontHave .signUpText a {
+
+
+.signUpText a {
   font-family: "Nunito", sans-serif;
   color: rgb(8, 8, 198);
 }
-.dontHave .signUpText a:hover {
+
+.signUpText a:hover {
   color: blue;
 }

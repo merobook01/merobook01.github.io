@@ -90,7 +90,6 @@ label {
   padding-inline-start: 6px;
   width: 420px;
   height: 40px;
-  font-size: px;
 }
 
 .check-forgot {
@@ -141,7 +140,7 @@ label {
 }
 
 .dontHave .signUpText {
-  font-size: 20px;
+  font-size: 16px;
 }
 .dontHave .signUpText a {
   font-family: "Nunito", sans-serif;

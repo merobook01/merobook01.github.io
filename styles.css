@@ -62,14 +62,11 @@ input[type="search"] {
     justify-content: flex-end;
 }
 
-.head-nav .right a {
+.head-nav .right a, .left a {
     text-decoration: none;
     color: white;
 }
 
-.navigation .text-nav {
-    border: 1px solid red;
-}
 
 .banner-img {
     background-image: url(./img/banner.png);

@@ -90,8 +90,7 @@ label {
   border-radius: 6px;
   padding-inline-start: 6px;
   width: 420px;
-  height: 30px;
-  font-size: px;
+  height: 40px;
 }
 
 .check-forgot {
@@ -134,18 +133,13 @@ label {
 .loginButton a {
   text-decoration: none;
   color: white;
-  font-size: 27px;
-}
-
-.dontHave {
-  display: flex;
-  justify-content: center;
-  width: 365px;
-}
-
-.signUpText {
   font-size: 24px;
 }
+
+
+.dontHave .signUpText {
+  font-size: 16px;
+
 
 .signUpText a {
   font-family: "Nunito", sans-serif;
